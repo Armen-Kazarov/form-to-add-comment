@@ -9,4 +9,4 @@ const addComment = createAction('comments/add', (name, text) => ({
   },
 }));
 
-export default addComment ;
+export default { addComment };
